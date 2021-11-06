@@ -1,0 +1,258 @@
+*
+{ margin: 0;  padding: 0; }
+.Header 
+{
+    padding: 20px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+ display: flex;
+ justify-content: space-between;
+ align-items: center;
+ width: auto;
+ height: 50px;
+ background: linear-gradient(90deg, rgba(208,132,134,1) 0%, rgba(198,198,223,1) 56%, rgba(0,0,0,1) 100%);
+
+} 
+
+.Header li 
+{
+list-style-type: none;
+}
+.Header a
+{
+
+text-decoration: none;
+ color: aliceblue;
+}
+
+.Navigate
+{
+    display: flex; 
+}
+.Navigate li 
+{
+padding: 10px;
+list-style-type: none;
+}
+.About_Me
+{
+    
+    width: 100%;
+}
+
+.Background_Foto
+{
+    width: 100%;
+background: no-repeat center/100% url(https://images.wallpaperscraft.ru/image/single/gory_zasnezhennyj_sumerki_156211_2560x1080.jpg);
+
+}
+.Info_card 
+{
+ /* display: flex; */
+ /* justify-content: space-between; */
+ margin: 0 auto;
+ width: 1000px;
+ height:750px ;
+ background-color: ghostwhite;
+}
+.Card
+{
+    display: flex;
+    justify-content: space-between;
+}
+
+.Foto img 
+{
+margin: 10px;
+margin-top: 50px;
+    height: 616px;
+    width: 473px; 
+}
+.Info
+{
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    margin-top: 70px ;
+    margin-left: 30px;
+}
+.Info h4
+{
+padding: 10px;
+}
+.Info li
+{
+ list-style-type:none ;
+ font-size: 18px;
+}
+.Info p
+{
+    margin-right: 30px
+}
+.Footer_card
+{
+
+    display: flex;
+    justify-content: space-between;
+
+    background: linear-gradient(90deg, rgba(125,189,201,1) 0%, rgba(198,198,223,1) 43%, rgba(2,0,36,1) 100%);
+    width: 100%;
+    height: 70px ;
+
+}
+
+.Footer_card .content__social{
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    padding-left: 45%;
+}
+.Footer_card  .content__social li{
+    list-style-type: none;
+    margin-right: 10px;
+}
+.Footer_card  .content__social li a{
+    text-decoration: none;
+}
+.Footer_card  .content__social li a i{
+    font-size: 30px;
+    color: #000000;
+}
+.Information
+{
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.Description
+{
+
+background: linear-gradient(90deg, rgba(125,189,201,1) 0%, rgba(198,198,223,1) 43%, rgba(2,0,36,1) 100%);
+padding-top: 35px;
+display: flex;
+justify-content: center;
+width: 100%;
+height: 50px;
+
+}
+.Description p
+{
+    font-weight: bold;
+    letter-spacing: 2px;
+  
+}
+.Line
+{
+        border: none; 
+        background-color: rgb(192, 192, 192); 
+        height: 2px;      
+}
+
+.Content__line_Education{
+   
+    position: absolute;
+    left: 50%;
+    width: 1px;
+    height: 300px;
+    background:  rgba(198,198,223,1);
+}
+.Content_info_Education
+{
+    display: flex;
+    justify-content: space-between;
+}  
+.Right_Info_Education
+{
+  
+width: 50%;
+}
+.Right_Info_Education li 
+{
+    margin-left: 650px ;
+    padding-top: 34px;
+    padding-bottom: 34px;
+    list-style-type:none ;
+}
+.Left_info_Education
+{
+width:45% ;
+}
+.Left_info_Education li
+{   
+    padding-top: 34px;
+    padding-bottom: 34px;
+    list-style-type:none ;
+}
+
+.Content__line_Skils{
+    position: absolute;
+    left: 50%;
+    width: 1px;
+    height: 522px;
+    background:  rgba(198,198,223,1);
+}
+.Content_info_Skils
+{
+    display: flex;
+    justify-content: space-between;
+}  
+.Right_Info_Skils
+{
+  
+width: 50%;
+}
+.Right_Info_Skils li 
+{
+    margin-left: 650px ;
+    padding-top: 34px;
+    padding-bottom: 34px;
+    list-style-type:none ;
+}
+.Left_info_Skils
+{
+width:45% ;
+}
+.Left_info_Skils li
+{   
+    padding-top: 34px;
+    padding-bottom: 34px;
+    list-style-type:none ;
+}
+.Footer
+{
+background: linear-gradient(90deg, rgba(125,189,201,1) 0%, rgba(198,198,223,1) 43%, rgba(2,0,36,1) 100%);
+padding-top: 45px;
+display: flex;
+justify-content: center;
+width: 100%;
+height: 40px;
+}
+
+.Media .content__social
+{
+    display: flex;
+}
+.Media  .content__social li
+{
+    list-style-type: none;
+    margin-right: 20px;
+}
+.Media  .content__social li a
+{
+    text-decoration: none;
+}
+.Media  .content__social li a i
+{
+    font-size: 30px;
+    color: #000000;
+}
+.Copyright_Text
+{
+   margin-left: 1000px;
+}
+.Copyright_Text p 
+{
+    color: aliceblue;
+}
+.Copyright_Text p a
+{
+    text-decoration: none;
+    color: aliceblue;
+}
+
